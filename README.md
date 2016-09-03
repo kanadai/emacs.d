@@ -31,8 +31,7 @@ vim .bash_profile
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 ```
 
-~~* global~~  
-~~brew install global --with-exuberant-ctags --with-pygments  
+~~* global~~
+~~brew install global --with-exuberant-ctags --with-pygments
 cp /usr/local/share/gtags/gtags.conf ~/.globalrc~~
-
 
