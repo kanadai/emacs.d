@@ -12,8 +12,8 @@
 (setq make-backup-files nil)
 (setq delete-auto-save-files t)
 (setq auto-save-default nil)
-(setq inhibit-startup-message t)
 (setq initial-scratch-message "")
+(dumb-jump-mode t)
 
 ;; 現在行をハイライト
 (defface hlline-face
@@ -83,9 +83,9 @@
                     )    ;; font size
 
 ;; 日本語
-(set-fontset-font
- nil 'japanese-jisx0208
- (font-spec :family "Hiragino Kaku Gothic ProN")) ;; font
+;;(set-fontset-font
+;; nil 'japanese-jisx0208
+;; (font-spec :family "Hiragino Kaku Gothic ProN")) ;; font
 
 ;; 半角と全角の比を1:2にしたければ
 ;; (setq face-font-rescale-alist

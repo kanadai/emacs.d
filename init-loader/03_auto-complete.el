@@ -8,6 +8,10 @@
 (add-to-list 'ac-modes 'elixir-mode)
 (add-to-list 'ac-modes 'go-mode)
 
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(add-to-list 'ac-modes 'angular-mode)
+(add-to-list 'ac-modes 'angular-html-mode)
+
 ;; (defun load-auto-complete ()
 ;;   (require 'auto-complete-config)
 ;;   (ac-config-default)

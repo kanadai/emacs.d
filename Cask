@@ -24,11 +24,13 @@
 (depends-on "powerline")
 (depends-on "scratch-log")
 (depends-on "undo-tree")
+(depends-on "neotree")
 
 ;; grep
 (depends-on "ag")
 (depends-on "wgrep")
 (depends-on "wgrep-ag")
+(depends-on "dumb-jump" :git "https://github.com/jacktasia/dumb-jump.git")
 
 ;; auto-complete.el
 (depends-on "auto-complete")
@@ -66,6 +68,7 @@
 (depends-on "web-mode")
 (depends-on "scss-mode")
 (depends-on "actionscript-mode")
+(depends-on "angular-mode")
 
 ;; text
 (depends-on "yaml-mode")
@@ -101,7 +104,7 @@
 
 ;; scala
 (depends-on "ensime")
-(depends-on "scala-mode2")
+(depends-on "scala-mode" :git "https://github.com/ensime/emacs-scala-mode.git")
 
 ;; php
 (depends-on "php-mode")
@@ -113,7 +116,7 @@
 ;; elixir
 (depends-on "elixir-mode")
 (depends-on "alchemist")
-(depends-on "ac-alchemist" :git "git@github.com:syohex/emacs-ac-alchemist.git")
+(depends-on "ac-alchemist" :git "https://github.com/syohex/emacs-ac-alchemist.git")
 
 ;; floobits
 (depends-on "floobits")
@@ -135,4 +138,4 @@
 (depends-on "flycheck-rust")
 
 ;; Crystal
-(depends-on "emacs-crystal-mode" :git "git@github.com:jpellerin/emacs-crystal-mode.git")
+(depends-on "emacs-crystal-mode" :git "https://github.com/jpellerin/emacs-crystal-mode.git")
