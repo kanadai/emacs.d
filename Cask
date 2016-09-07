@@ -108,15 +108,15 @@
 
 ;; php
 (depends-on "php-mode")
-(depends-on "php-completion"
-        :git "https://github.com/suzuki/php-completion.git"
-        :branch "develop"
-        :files ("*.el" "phpcmp-index-of-*"))
+(depends-on "php-completion")
+;;        :git "https://github.com/suzuki/php-completion.git"
+;;        :branch "develop"
+;;        :files ("*.el" "phpcmp-index-of-*"))
 
 ;; elixir
 (depends-on "elixir-mode")
 (depends-on "alchemist")
-(depends-on "ac-alchemist" :git "https://github.com/syohex/emacs-ac-alchemist.git")
+(depends-on "ac-alchemist")
 
 ;; floobits
 (depends-on "floobits")
@@ -138,4 +138,5 @@
 (depends-on "flycheck-rust")
 
 ;; Crystal
-(depends-on "emacs-crystal-mode" :git "https://github.com/jpellerin/emacs-crystal-mode.git")
+(depends-on "emacs-crystal-mode")
+
