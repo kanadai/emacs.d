@@ -139,5 +139,5 @@
 (depends-on "flycheck-rust")
 
 ;; Crystal
-(depends-on "emacs-crystal-mode")
+(depends-on "emacs-crystal-mode" :git "git@github.com:jpellerin/emacs-crystal-mode.git")
 
