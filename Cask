@@ -25,6 +25,7 @@
 (depends-on "scratch-log")
 (depends-on "undo-tree")
 (depends-on "neotree")
+(depends-on "which-key")
 
 ;; grep
 (depends-on "ag")
