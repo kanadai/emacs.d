@@ -26,6 +26,8 @@
 (depends-on "undo-tree")
 (depends-on "neotree")
 (depends-on "which-key")
+;; (depends-on "elscreen" :git "https://github.com/knu/elscreen.git")
+(depends-on "tabbar" :git "https://github.com/dholm/tabbar.git")
 
 ;; grep
 (depends-on "ag")
@@ -139,5 +141,7 @@
 (depends-on "flycheck-rust")
 
 ;; Crystal
-(depends-on "emacs-crystal-mode" :git "git@github.com:jpellerin/emacs-crystal-mode.git")
+;; (depends-on "emacs-crystal-mode" :git "git@github.com:jpellerin/emacs-crystal-mode.git")
+(depends-on "crystal-mode" :git "https://github.com/jpellerin/emacs-crystal-mode.git")
 
+(depends-on "minimap")
