@@ -57,7 +57,8 @@
 
 ;; タブに表示させるバッファの設定
 (defvar my-tabbar-displayed-buffers
-  '("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*" "*vc-")
+;;  '("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*" "*vc-")
+  '("*scratch")
   "*Regexps matches buffer names always included tabs.")
 
 (defun my-tabbar-buffer-list ()
@@ -98,3 +99,4 @@ are always included."
 ;; キーに割り当てる
 (global-set-key (kbd "M-<right>") 'tabbar-forward-tab)
 (global-set-key (kbd "M-<left>") 'tabbar-backward-tab)
+
