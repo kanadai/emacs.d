@@ -29,6 +29,7 @@
 ;; (depends-on "elscreen" :git "https://github.com/knu/elscreen.git")
 (depends-on "tabbar" :git "https://github.com/dholm/tabbar.git")
 (depends-on "path-headerline-mode")
+(depends-on "editorconfig")
 
 ;; grep
 (depends-on "ag")
