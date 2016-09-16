@@ -35,3 +35,7 @@ alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 ~~brew install global --with-exuberant-ctags --with-pygments
 cp /usr/local/share/gtags/gtags.conf ~/.globalrc~~
 
+```
+gem install rubocop -v 0.36 
+gem install ruby-lint
+```

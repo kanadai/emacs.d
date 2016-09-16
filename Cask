@@ -93,6 +93,7 @@
 (depends-on "rubocop")
 (depends-on "ruby-hash-syntax")
 (depends-on "ruby-refactor")
+(depends-on "ruby-electric")
 
 ;; go
 (depends-on "go-mode")
