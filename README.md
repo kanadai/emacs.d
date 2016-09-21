@@ -1,15 +1,15 @@
-### GNU Emacs 24.5.1
+### GNU Emacs 25.1.1
 
 ### set up .emacs.d
 ```
 mkdir .emacs.d
 cd .emacs.d
-git clone https://github.com/kanadai/emacs24.git .
+git clone https://github.com/kanadai/emacs25.git .
 ```
 
 * install emacs
 ```
-brew install --with-cocoa --srgb emacs
+brew install emacs --with-cocoa --srgb
 ```
 
 * install ag for dumb_jump
@@ -37,5 +37,4 @@ cp /usr/local/share/gtags/gtags.conf ~/.globalrc~~
 
 ```
 gem install rubocop -v 0.36 
-gem install ruby-lint
 ```
