@@ -10,6 +10,7 @@ git clone https://github.com/kanadai/emacs25.git .
 * install emacs
 ```
 brew install emacs --with-cocoa --srgb
+brew linkapps emacs
 ```
 
 * install ag for dumb_jump
