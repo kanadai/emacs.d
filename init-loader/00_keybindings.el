@@ -10,4 +10,4 @@
 (define-key global-map [f12] 'dumb-jump-go)
 (define-key global-map (kbd "M-<up>") 'beginning-of-buffer)
 (define-key global-map (kbd "M-<down>") 'end-of-buffer)
-(setq evil-insert-state-map nil)
+;; (setq evil-insert-state-map nil)
