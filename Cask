@@ -13,7 +13,11 @@
 (depends-on "multiple-cursors")
 (depends-on "wgrep")
 (depends-on "exec-path-from-shell")
+
+;; evil
 (depends-on "evil")
+(depends-on "evil-matchit")
+(depends-on "evil-leader")
 
 ;; Appearance
 (depends-on "color-theme-tango")

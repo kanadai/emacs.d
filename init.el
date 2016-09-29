@@ -17,6 +17,7 @@
 
 (require 'evil)
 (evil-mode 1)
+(evil-ex-define-cmd "q[uit]" 'kill-this-buffer)
 
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/init-loader")
