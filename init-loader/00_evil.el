@@ -26,7 +26,7 @@
 (evil-leader/set-key
   "SPC" 'evil-buffer
   ":" 'shell-command
-  "a" 'avy-goto-word-0
+  "a" 'ag
   "b" 'helm-buffers-list
   "B" 'ibuffer
   "d" 'kill-this-buffer
