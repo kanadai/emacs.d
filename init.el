@@ -6,8 +6,8 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(require 'cask "/usr/local/opt/cask/cask.el")
-(cask-initialize "~/.emacs.d")
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
 
 (let ((envs '("PATH" "VIRTUAL_ENV" "GOROOT" "GOPATH")))
   (exec-path-from-shell-copy-envs envs))
