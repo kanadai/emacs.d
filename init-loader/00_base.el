@@ -16,6 +16,8 @@
 (setq auto-save-default nil)
 (setq initial-scratch-message "")
 (dumb-jump-mode t)
+(setq x-select-enable-clipboard t)
+;;(setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
 
 ;; 現在行をハイライト
 (defface hlline-face
@@ -97,3 +99,6 @@
 
 ;; 警告音もフラッシュも全て無効(警告音が完全に鳴らなくなるので注意)
 (setq ring-bell-function 'ignore)
+
+(require 'redo+)
+(global-set-key (kbd "C-M-/") 'redo)
