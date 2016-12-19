@@ -6,8 +6,8 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(require 'cask "/usr/local/opt/cask/cask.el")
-(cask-initialize "~/.emacs.d")
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
 
 (let ((envs '("PATH" "VIRTUAL_ENV" "GOROOT" "GOPATH")))
   (exec-path-from-shell-copy-envs envs))
@@ -15,9 +15,9 @@
 (require 'editorconfig)
 (editorconfig-mode 1)
 
-(require 'evil)
-(evil-mode 1)
-(evil-ex-define-cmd "q[uit]" 'kill-this-buffer)
+;; (require 'evil)
+;; (evil-mode 1)
+;; (evil-ex-define-cmd "q[uit]" 'kill-this-buffer)
 
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/init-loader")
