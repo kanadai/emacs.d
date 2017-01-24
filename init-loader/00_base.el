@@ -29,8 +29,9 @@
      ()))
   "*Face used by hl-line.")
 (setq hl-line-face 'hlline-face)
-;; (setq hl-line-face 'underline) ; 下線
+(setq hl-line-face 'underline) ; 下線
 (global-hl-line-mode t)
+
 ;; 対応する括弧をハイライト
 (show-paren-mode t)
 ;; 括弧のハイライトの設定。
@@ -96,4 +97,4 @@
              '(".*Hiragino Kaku Gothic ProN.*" . 1.2))
 
 ;; 警告音もフラッシュも全て無効(警告音が完全に鳴らなくなるので注意)
-(setq ring-bell-function 'ignore)
+;; (setq ring-bell-function 'ignore)

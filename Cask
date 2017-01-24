@@ -15,9 +15,9 @@
 (depends-on "exec-path-from-shell")
 
 ;; evil
-(depends-on "evil")
-(depends-on "evil-matchit")
-(depends-on "evil-leader")
+;; (depends-on "evil")
+;; (depends-on "evil-matchit")
+;; (depends-on "evil-leader")
 
 ;; Appearance
 (depends-on "color-theme-tango")
