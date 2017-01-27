@@ -1,4 +1,5 @@
 ### GNU Emacs 25.1.1
+## note: Using Evil!!
 
 ## Before installation this repo
 * install emacs
