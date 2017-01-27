@@ -29,7 +29,7 @@
      ()))
   "*Face used by hl-line.")
 (setq hl-line-face 'hlline-face)
-;; (setq hl-line-face 'underline) ; 下線
+(setq hl-line-face 'underline) ; 下線
 (global-hl-line-mode t)
 ;; 対応する括弧をハイライト
 (show-paren-mode t)
